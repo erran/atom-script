@@ -57,7 +57,7 @@ module.exports =
 
   Erlang:
     command: 'erl'
-    'Selection Based': (code) -> ['-noshell', '-eval', code+', init:stop().']
+    'Selection Based': (code) -> ['-noshell', '-eval', "#{code}, init:stop()."]
 
   Elixir:
     command: 'elixir'
