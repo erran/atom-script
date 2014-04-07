@@ -3,90 +3,88 @@
 
 module.exports =
   CoffeeScript:
-    command: "coffee"
-    "Selection Based": (code) -> ['-e', code]
-    "File Based": (filename) -> [filename]
+    command: 'coffee'
+    'Selection Based': (code) -> ['-e', code]
+    'File Based': (filename) -> [filename]
 
   JavaScript:
-    command: "node"
-    "Selection Based": (code) -> ['-e', code]
-    "File Based": (filename) -> [filename]
+    command: 'node'
+    'Selection Based': (code) -> ['-e', code]
+    'File Based': (filename) -> [filename]
 
   Ruby:
-    command: "ruby"
-    "Selection Based": (code) -> ['-e', code]
-    "File Based": (filename) -> [filename]
+    command: 'ruby'
+    'Selection Based': (code) -> ['-e', code]
+    'File Based': (filename) -> [filename]
 
   Perl:
-    command: "perl"
-    "Selection Based": (code) -> ['-e', code]
-    "File Based": (filename) -> [filename]
+    command: 'perl'
+    'Selection Based': (code) -> ['-e', code]
+    'File Based': (filename) -> [filename]
 
   PHP:
-    command: "php"
-    "Selection Based": (code) -> ['-r', code]
-    "File Based": (filename) -> [filename]
+    command: 'php'
+    'Selection Based': (code) -> ['-r', code]
+    'File Based': (filename) -> [filename]
 
   Python:
-    command: "python"
-    "Selection Based": (code) -> ['-c', code]
-    "File Based": (filename) -> [filename]
+    command: 'python'
+    'Selection Based': (code) -> ['-c', code]
+    'File Based': (filename) -> [filename]
 
   'Shell Script (Bash)':
-    command: "bash"
-    "Selection Based": (code) -> ['-c', code]
-    "File Based": (filename) -> [filename]
+    command: 'bash'
+    'Selection Based': (code) -> ['-c', code]
+    'File Based': (filename) -> [filename]
 
   Go:
-    command: "go"
-    #"Selection Based": (code) -> []
-    "File Based": (filename) -> ['run', filename]
+    command: 'go'
+    #'Selection Based': (code) -> []
+    'File Based': (filename) -> ['run', filename]
 
   'F#':
-    command: "fsharpi"
-    "File Based": (filename) -> ['--exec', filename]
+    command: 'fsharpi'
+    'File Based': (filename) -> ['--exec', filename]
 
   newLISP:
-    command: "newlisp"
-    "Selection Based": (code) -> ['-e', code]
-    "File Based": (filename) -> [filename]
+    command: 'newlisp'
+    'Selection Based': (code) -> ['-e', code]
+    'File Based': (filename) -> [filename]
 
   Haskell:
-    command: "runhaskell"
-    "File Based": (filename) -> [filename]
-    #command: "ghc"
-    #"Selection Based": (code) -> ['-e', code]
+    command: 'runhaskell'
+    'File Based': (filename) -> [filename]
 
   Erlang:
-    command: "erl"
-    "Selection Based": (code) -> ['-noshell', '-eval', code+', init:stop().']
+    command: 'erl'
+    'Selection Based': (code) -> ['-noshell', '-eval', code+', init:stop().']
 
   Elixir:
-    command: "elixir"
-    "Selection Based": (code) -> ['-e', code]
-    "File Based": (filename) -> ['-r', filename]
+    command: 'elixir'
+    'Selection Based': (code) -> ['-e', code]
+    'File Based': (filename) -> ['-r', filename]
 
   Julia:
-    command: "julia"
-    "Selection Based": (code) -> ['-e', code]
-    "File Based": (filename) -> [filename]
+    command: 'julia'
+    'Selection Based': (code) -> ['-e', code]
+    'File Based': (filename) -> [filename]
 
   Groovy:
-    command: "groovy"
-    "Selection Based": (code) -> ['-e', code]
-    "File Based": (filename) -> [filename]
+    command: 'groovy'
+    'Selection Based': (code) -> ['-e', code]
+    'File Based': (filename) -> [filename]
 
   Scala:
-    command: "scala"
-    "Selection Based": (code) -> ['-e', code]
-    "File Based": (filename) -> [filename]
+    command: 'scala'
+    'Selection Based': (code) -> ['-e', code]
+    'File Based': (filename) -> [filename]
 
   Lua:
-    command: "lua"
-    "Selection Based": (code) -> ['-e', code]
-    "File Based": (filename) -> [filename]
+    command: 'lua'
+    'Selection Based': (code) -> ['-e', code]
+    'File Based': (filename) -> [filename]
 
-  "CoffeeScript (Literate)":
-    command: "coffee"
-    "Selection Based": (code) -> ['-e', code]
-    "File Based": (filename) -> [filename]
+  'CoffeeScript (Literate)':
+    command: 'coffee'
+    'Selection Based': (code) -> ['-e', code]
+    'File Based': (filename) -> [filename]
