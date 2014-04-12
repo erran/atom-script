@@ -20,7 +20,7 @@ module.exports =
   RSpec:
     command: "rspec"
     #"Selection Based": (code) -> []
-    "File Based": (filename) -> [filename]
+    "File Based": (filename) -> ['--color', filename]
 
   Perl:
     command: "perl"
